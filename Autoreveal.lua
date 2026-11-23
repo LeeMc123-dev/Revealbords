@@ -1,12 +1,507 @@
---[[
- .____                  ________ ___.    _____                           __                
- |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
- |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
- |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
- |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
-         \/          \/         \/    \/                \/     \/     \/                   
-          \_Welcome to LuaObfuscator.com   (Alpha 0.10.9) ~  Much Love, Ferib 
+local _0x101 = game
+local _0x102 = _0x101:GetService(string.char(87,111,114,107,115,112,97,99,101))
+local _0x103 = _0x101:GetService(string.char(80,108,97,121,101,114,115))
+local _0x104 = _0x101:GetService(string.char(85,115,101,114,73,110,112,117,116,83,101,114,118,105,99,101))
+local _0x105 = _0x101:GetService(string.char(84,119,101,101,110,83,101,114,118,105,99,101))
+local _0x106 = _0x101:GetService(string.char(67,111,114,101,71,117,105))
+local _0x107 = table.concat
+local _0x108 = string.char
+local _0x109 = tostring
+local _0x110 = ipairs
+local _0x111 = task.spawn
+local _0x112 = task.wait
+local _0x113 = task.delay
+local _0x114 = Instance.new
+local _0x115 = UDim2.new
+local _0x116 = UDim2.fromOffset
+local _0x117 = Color3.fromRGB
+local _0x118 = TweenInfo.new
+local _0x119 = UDim.new
+local function _0x201(_0xM)
+	if _0xM == 1 then return _0x108(68,117,101,108,32,84,97,98,108,101,115,32,124,32,82,101,118,101,97,108) end
+	if _0xM == 2 then return _0x108(77,111,105,122,114,103,105) end
+	if _0xM == 3 then return _0x108(68,117,101,108,84,97,98,108,101,115) end
+	if _0xM == 4 then return _0x108(66,111,97,114,100,49,71,114,105,100) end
+	if _0xM == 5 then return _0x108(66,111,97,114,100,50,71,114,105,100) end
+	if _0xM == 6 then return _0x108(83,117,114,102,97,99,101,71,117,105) end
+	if _0xM == 7 then return _0x108(67,104,97,114,97,99,116,101,114,73,109,97,103,101) end
+	if _0xM == 8 then return _0x108(73,109,97,103,101,76,97,98,101,108) end
+	if _0xM == 9 then return _0x108(71,117,105,79,98,106,101,99,116) end
+	if _0xM == 10 then return _0x108(82,101,118,101,97,108,32,66,111,97,114,100,115) end
+	if _0xM == 11 then return _0x108(83,104,111,119,115,32,67,104,97,114,97,99,116,101,114,73,109,97,103,101,32,97,110,100,32,104,105,100,101,115,32,73,109,97,103,101,76,97,98,101,108) end
+	if _0xM == 12 then return _0x108(66,111,97,114,100,115,32,82,101,118,101,97,108,101,100) end
+	if _0xM == 13 then return _0x108(85,112,100,97,116,101,100,32,116,105,108,101,115,58,32) end
+	if _0xM == 14 then return _0x108(65,117,116,111,32,82,101,118,101,97,108) end
+	if _0xM == 15 then return _0x108(75,101,101,112,115,32,116,105,108,101,115,32,114,101,118,101,97,108,101,100,32,97,117,116,111,109,97,116,105,99,97,108,108,121) end
+	if _0xM == 16 then return _0x108(72,105,100,101,32,66,111,97,114,100,115) end
+	if _0xM == 17 then return _0x108(82,101,118,101,114,116,115,32,118,105,115,105,98,105,108,105,116,121,32,116,111,32,104,105,100,100,101,110,32,115,116,97,116,101) end
+	if _0xM == 18 then return _0x108(66,111,97,114,100,115,32,72,105,100,100,101,110) end
+	if _0xM == 19 then return _0x108(85,112,100,97,116,101,100,32,116,105,108,101,115,58,32) end
+	if _0xM == 20 then return _0x108(68,101,118,101,108,111,112,101,100,32,98,121,32) end
+	if _0xM == 21 then return _0x108(77,97,105,110) end
+	if _0xM == 22 then return _0x108(69,120,101,99,117,116,101) end
+	if _0xM == 23 then return _0x108(82,101,115,116,111,114,101) end
+	return _0x108(83,99,114,101,101,110,71,117,105)
+end
+local _0x301 = {
+	_0x201(1),_0x201(2),_0x201(3),_0x201(4),_0x201(5),_0x201(6),_0x201(7),_0x201(8),
+	_0x201(9),_0x201(10),_0x201(11),_0x201(12),_0x201(13),_0x201(14),_0x201(15),_0x201(16),
+	_0x201(17),_0x201(18),_0x201(19),_0x201(20),_0x201(21),_0x201(22),_0x201(23),_0x201(24)
+}
+local _0x401 = {
+	101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,179,181,191,193,197,
+	199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,
+	317,331,337,347,349,353,359,367,373,379,383,389,397,401,409,419,421,431,433,439,
+	443,449,457,461,463,467,479,487,491,499,503,509,521,523,541,547,557,563,569,571,
+	577,587,593,599,601,607,613,617,619,631,641,643,647,653,659,661,673,677,683,691,
+	701,709,719,727,733,739,743,751,757,761,769,773,787,797,809,811,821,823,827,829,
+	839,853,857,859,863,877,881,883,887,907,911,919,929,937,941,947,953,967,971,977,
+	983,991,997,1009,1013,1019,1021,1031,1033,1039,1049,1051,1061,1063,1069,1087,1091,1093,1097,1103,
+	1109,1117,1123,1129,1151,1153,1163,1171,1181,1187,1193,1201,1213,1217,1223,1229,1231,1237,1249,1259,
+	1277,1279,1283,1289,1291,1297,1301,1303,1307,1319,1321,1327,1361,1367,1373,1381,1399,1409,1423,1427
+}
+local function _0x501(_0xV)
+	local _0xA = 0
+	for _0xI = 1, #_0x401 do _0xA = (_0xA + _0x401[_0xI] * (_0xV + _0xI)) % 100003 end
+	return _0xA
+end
+local _0x601 = false
+local _0x602 = false
+local _0x603 = 0.5
+local _0x604 = _0x501(13)
+local function _0x704(_0xR)
+	local _0xD = _0x102:FindFirstChild(_0x301[3])
+	if not _0xD then return 0 end
+	local _0xU = 0
+	for _, _0xT in _0x110(_0xD:GetChildren()) do
+		local _0xB1 = _0xT:FindFirstChild(_0x301[4])
+		local _0xB2 = _0xT:FindFirstChild(_0x301[5])
+		if _0xB1 and _0xB2 then
+			for _, _0xG in _0x110({ _0xB1, _0xB2 }) do
+				for _, _0xV in _0x110(_0xG:GetChildren()) do
+					local _0xSg = _0xV:FindFirstChild(_0x301[6])
+					if _0xSg then
+						local _0xCi = _0xSg:FindFirstChild(_0x301[7])
+						local _0xIl = _0xSg:FindFirstChild(_0x301[8])
+						if _0xCi and _0xCi:IsA(_0x301[9]) then _0xCi.Visible = _0xR end
+						if _0xIl and _0xIl:IsA(_0x301[9]) then _0xIl.Visible = not _0xR end
+						if _0xCi or _0xIl then _0xU += 1 end
+					end
+				end
+			end
+		end
+	end
+	return _0xU
+end
+local function _0x705()
+	if _0x602 then return end
+	_0x602 = true
+	_0x111(function()
+		while _0x601 do
+			_0x704(true)
+			_0x112(_0x603)
+		end
+		_0x602 = false
+	end)
+end
+local function _0x706()
+	local _0xP = _0x103.LocalPlayer
+	if _0xP then
+		local _0xG = _0xP:FindFirstChildOfClass("PlayerGui")
+		if _0xG then return _0xG end
+	end
+	return _0x106
+end
+local function _0x707()
+	local _0xParent = _0x706()
+	for _, _0xO in _0x110(_0xParent:GetChildren()) do
+		if _0xO.Name == _0x301[1] then _0xO:Destroy() end
+	end
+	local _0xGui = _0x114(_0x301[24])
+	_0xGui.Name = _0x301[1]
+	_0xGui.ResetOnSpawn = false
+	_0xGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	_0xGui.DisplayOrder = 999
+	_0xGui.Parent = _0xParent
+	local _0xTH = _0x114("Frame")
+	_0xTH.Size = _0x116(280, 140)
+	_0xTH.Position = _0x115(1, -294, 1, -154)
+	_0xTH.BackgroundTransparency = 1
+	_0xTH.Parent = _0xGui
+	local _0xTL = _0x114("UIListLayout")
+	_0xTL.Padding = _0x119(0, 8)
+	_0xTL.VerticalAlignment = Enum.VerticalAlignment.Bottom
+	_0xTL.SortOrder = Enum.SortOrder.LayoutOrder
+	_0xTL.Parent = _0xTH
+	local function _0xNt(_0xH, _0xM)
+		local _0xC = _0x114("Frame")
+		_0xC.Size = _0x115(1, 0, 0, 56)
+		_0xC.BackgroundColor3 = _0x117(16, 17, 23)
+		_0xC.BorderSizePixel = 0
+		_0xC.Parent = _0xTH
+		local _0xCC = _0x114("UICorner")
+		_0xCC.CornerRadius = _0x119(0, 10)
+		_0xCC.Parent = _0xC
+		local _0xCS = _0x114("UIStroke")
+		_0xCS.Color = _0x117(46, 50, 66)
+		_0xCS.Thickness = 1
+		_0xCS.Parent = _0xC
+		local _0xAB = _0x114("Frame")
+		_0xAB.Size = _0x115(0, 3, 1, -14)
+		_0xAB.Position = _0x116(8, 7)
+		_0xAB.BackgroundColor3 = _0x117(99, 102, 241)
+		_0xAB.BorderSizePixel = 0
+		_0xAB.Parent = _0xC
+		local _0xAC = _0x114("UICorner")
+		_0xAC.CornerRadius = _0x119(1, 0)
+		_0xAC.Parent = _0xAB
+		local _0xHL = _0x114("TextLabel")
+		_0xHL.Size = _0x115(1, -24, 0, 18)
+		_0xHL.Position = _0x116(18, 8)
+		_0xHL.BackgroundTransparency = 1
+		_0xHL.Font = Enum.Font.GothamBold
+		_0xHL.TextSize = 13
+		_0xHL.TextXAlignment = Enum.TextXAlignment.Left
+		_0xHL.TextColor3 = _0x117(244, 244, 248)
+		_0xHL.Text = _0xH
+		_0xHL.Parent = _0xC
+		local _0xBL = _0x114("TextLabel")
+		_0xBL.Size = _0x115(1, -24, 0, 18)
+		_0xBL.Position = _0x116(18, 28)
+		_0xBL.BackgroundTransparency = 1
+		_0xBL.Font = Enum.Font.Gotham
+		_0xBL.TextSize = 11
+		_0xBL.TextXAlignment = Enum.TextXAlignment.Left
+		_0xBL.TextColor3 = _0x117(161, 166, 186)
+		_0xBL.Text = _0xM
+		_0xBL.Parent = _0xC
+		_0x113(3, function()
+			if _0xC and _0xC.Parent then
+				local _0xF = _0x105:Create(_0xC, _0x118(0.25, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), { BackgroundTransparency = 1 })
+				_0xF:Play()
+				_0x112(0.26)
+				if _0xC and _0xC.Parent then _0xC:Destroy() end
+			end
+		end)
+	end
+	local _0xMP = _0x114("Frame")
+	_0xMP.Size = _0x116(440, 280)
+	_0xMP.Position = _0x115(0.5, -220, 0.5, -140)
+	_0xMP.BackgroundColor3 = _0x117(11, 12, 16)
+	_0xMP.BorderSizePixel = 0
+	_0xMP.Active = true
+	_0xMP.Parent = _0xGui
+	local _0xPC = _0x114("UICorner")
+	_0xPC.CornerRadius = _0x119(0, 12)
+	_0xPC.Parent = _0xMP
+	local _0xPS = _0x114("UIStroke")
+	_0xPS.Color = _0x117(38, 42, 56)
+	_0xPS.Thickness = 1.2
+	_0xPS.Parent = _0xMP
+	local _0xHB = _0x114("Frame")
+	_0xHB.Size = _0x115(1, 0, 0, 42)
+	_0xHB.BackgroundColor3 = _0x117(16, 17, 23)
+	_0xHB.BorderSizePixel = 0
+	_0xHB.Active = true
+	_0xHB.Parent = _0xMP
+	local _0xHC = _0x114("UICorner")
+	_0xHC.CornerRadius = _0x119(0, 12)
+	_0xHC.Parent = _0xHB
+	local _0xHM = _0x114("Frame")
+	_0xHM.Size = _0x115(1, 0, 0, 12)
+	_0xHM.Position = _0x115(0, 0, 1, -12)
+	_0xHM.BackgroundColor3 = _0x117(16, 17, 23)
+	_0xHM.BorderSizePixel = 0
+	_0xHM.Parent = _0xHB
+	local _0xHD = _0x114("Frame")
+	_0xHD.Size = _0x115(1, 0, 0, 1)
+	_0xHD.Position = _0x115(0, 0, 1, -1)
+	_0xHD.BackgroundColor3 = _0x117(34, 37, 49)
+	_0xHD.BorderSizePixel = 0
+	_0xHD.Parent = _0xHB
+	local _0xSD = _0x114("Frame")
+	_0xSD.Size = _0x116(8, 8)
+	_0xSD.Position = _0x116(14, 17)
+	_0xSD.BackgroundColor3 = _0x117(99, 102, 241)
+	_0xSD.BorderSizePixel = 0
+	_0xSD.Parent = _0xHB
+	local _0xDC = _0x114("UICorner")
+	_0xDC.CornerRadius = _0x119(1, 0)
+	_0xDC.Parent = _0xSD
+	local _0xTT = _0x114("TextLabel")
+	_0xTT.Size = _0x115(1, -110, 1, 0)
+	_0xTT.Position = _0x116(30, 0)
+	_0xTT.BackgroundTransparency = 1
+	_0xTT.Font = Enum.Font.GothamBold
+	_0xTT.TextSize = 14
+	_0xTT.TextXAlignment = Enum.TextXAlignment.Left
+	_0xTT.TextColor3 = _0x117(244, 244, 248)
+	_0xTT.Text = _0x301[1]
+	_0xTT.Parent = _0xHB
+	local _0xMB = _0x114("TextButton")
+	_0xMB.Size = _0x116(26, 26)
+	_0xMB.Position = _0x115(1, -68, 0, 8)
+	_0xMB.BackgroundColor3 = _0x117(26, 28, 37)
+	_0xMB.BorderSizePixel = 0
+	_0xMB.Font = Enum.Font.GothamBold
+	_0xMB.TextSize = 14
+	_0xMB.TextColor3 = _0x117(200, 205, 224)
+	_0xMB.Text = "-"
+	_0xMB.Parent = _0xHB
+	local _0xMC = _0x114("UICorner")
+	_0xMC.CornerRadius = _0x119(0, 7)
+	_0xMC.Parent = _0xMB
+	local _0xCB = _0x114("TextButton")
+	_0xCB.Size = _0x116(26, 26)
+	_0xCB.Position = _0x115(1, -36, 0, 8)
+	_0xCB.BackgroundColor3 = _0x117(42, 22, 28)
+	_0xCB.BorderSizePixel = 0
+	_0xCB.Font = Enum.Font.GothamBold
+	_0xCB.TextSize = 13
+	_0xCB.TextColor3 = _0x117(248, 113, 113)
+	_0xCB.Text = "X"
+	_0xCB.Parent = _0xHB
+	local _0xCC2 = _0x114("UICorner")
+	_0xCC2.CornerRadius = _0x119(0, 7)
+	_0xCC2.Parent = _0xCB
+	local _0xRB = _0x114("TextButton")
+	_0xRB.Size = _0x116(132, 34)
+	_0xRB.Position = _0x115(0, 14, 0.5, -17)
+	_0xRB.BackgroundColor3 = _0x117(15, 16, 22)
+	_0xRB.BorderSizePixel = 0
+	_0xRB.Font = Enum.Font.GothamBold
+	_0xRB.TextSize = 12
+	_0xRB.TextColor3 = _0x117(244, 244, 248)
+	_0xRB.Text = _0x301[1]
+	_0xRB.Visible = false
+	_0xRB.Active = true
+	_0xRB.Parent = _0xGui
+	local _0xRC = _0x114("UICorner")
+	_0xRC.CornerRadius = _0x119(0, 9)
+	_0xRC.Parent = _0xRB
+	local _0xRS = _0x114("UIStroke")
+	_0xRS.Color = _0x117(99, 102, 241)
+	_0xRS.Thickness = 1.2
+	_0xRS.Parent = _0xRB
+	local _0xBF = _0x114("Frame")
+	_0xBF.Size = _0x115(1, 0, 1, -42)
+	_0xBF.Position = _0x116(0, 42)
+	_0xBF.BackgroundTransparency = 1
+	_0xBF.Parent = _0xMP
+	local _0xSB = _0x114("Frame")
+	_0xSB.Size = _0x115(0, 128, 1, 0)
+	_0xSB.BackgroundColor3 = _0x117(14, 15, 20)
+	_0xSB.BorderSizePixel = 0
+	_0xSB.Parent = _0xBF
+	local _0xSC = _0x114("UICorner")
+	_0xSC.CornerRadius = _0x119(0, 12)
+	_0xSC.Parent = _0xSB
+	local _0xSM = _0x114("Frame")
+	_0xSM.Size = _0x115(0, 12, 1, 0)
+	_0xSM.Position = _0x115(1, -12, 0, 0)
+	_0xSM.BackgroundColor3 = _0x117(14, 15, 20)
+	_0xSM.BorderSizePixel = 0
+	_0xSM.Parent = _0xSB
+	local _0xSD2 = _0x114("Frame")
+	_0xSD2.Size = _0x115(0, 1, 1, 0)
+	_0xSD2.Position = _0x115(1, -1, 0, 0)
+	_0xSD2.BackgroundColor3 = _0x117(30, 33, 44)
+	_0xSD2.BorderSizePixel = 0
+	_0xSD2.Parent = _0xSB
+	local _0xTB = _0x114("TextButton")
+	_0xTB.Size = _0x115(1, -14, 0, 32)
+	_0xTB.Position = _0x116(7, 10)
+	_0xTB.BackgroundColor3 = _0x117(31, 34, 48)
+	_0xTB.BorderSizePixel = 0
+	_0xTB.Font = Enum.Font.GothamBold
+	_0xTB.TextSize = 12
+	_0xTB.TextColor3 = _0x117(244, 244, 248)
+	_0xTB.Text = _0x301[21]
+	_0xTB.Parent = _0xSB
+	local _0xTC2 = _0x114("UICorner")
+	_0xTC2.CornerRadius = _0x119(0, 8)
+	_0xTC2.Parent = _0xTB
+	local _0xCL = _0x114("TextLabel")
+	_0xCL.Size = _0x115(1, -14, 0, 28)
+	_0xCL.Position = _0x115(0, 7, 1, -34)
+	_0xCL.BackgroundTransparency = 1
+	_0xCL.Font = Enum.Font.GothamMedium
+	_0xCL.TextSize = 11
+	_0xCL.TextXAlignment = Enum.TextXAlignment.Left
+	_0xCL.TextColor3 = _0x117(125, 130, 152)
+	_0xCL.Text = _0x301[20] .. _0x301[2]
+	_0xCL.Parent = _0xSB
+	local _0xSA = _0x114("ScrollingFrame")
+	_0xSA.Size = _0x115(1, -140, 1, -16)
+	_0xSA.Position = _0x116(134, 8)
+	_0xSA.BackgroundTransparency = 1
+	_0xSA.BorderSizePixel = 0
+	_0xSA.ScrollBarThickness = 3
+	_0xSA.ScrollBarImageColor3 = _0x117(99, 102, 241)
+	_0xSA.CanvasSize = _0x116(0, 0)
+	_0xSA.AutomaticCanvasSize = Enum.AutomaticSize.Y
+	_0xSA.Parent = _0xBF
+	local _0xLL = _0x114("UIListLayout")
+	_0xLL.Padding = _0x119(0, 8)
+	_0xLL.SortOrder = Enum.SortOrder.LayoutOrder
+	_0xLL.Parent = _0xSA
+	local function _0xAC2(_0xO, _0xT, _0xS, _0xA, _0xCol, _0xCb)
+		local _0xRw = _0x114("Frame")
+		_0xRw.LayoutOrder = _0xO
+		_0xRw.Size = _0x115(1, -6, 0, 58)
+		_0xRw.BackgroundColor3 = _0x117(18, 20, 27)
+		_0xRw.BorderSizePixel = 0
+		_0xRw.Parent = _0xSA
+		local _0xRC2 = _0x114("UICorner")
+		_0xRC2.CornerRadius = _0x119(0, 9)
+		_0xRC2.Parent = _0xRw
+		local _0xRS2 = _0x114("UIStroke")
+		_0xRS2.Color = _0x117(34, 37, 49)
+		_0xRS2.Thickness = 1
+		_0xRS2.Parent = _0xRw
+		local _0xTL2 = _0x114("TextLabel")
+		_0xTL2.Size = _0x115(1, -106, 0, 20)
+		_0xTL2.Position = _0x116(12, 8)
+		_0xTL2.BackgroundTransparency = 1
+		_0xTL2.Font = Enum.Font.GothamBold
+		_0xTL2.TextSize = 12
+		_0xTL2.TextXAlignment = Enum.TextXAlignment.Left
+		_0xTL2.TextColor3 = _0x117(244, 244, 248)
+		_0xTL2.Text = _0xT
+		_0xTL2.Parent = _0xRw
+		local _0xSL2 = _0x114("TextLabel")
+		_0xSL2.Size = _0x115(1, -106, 0, 18)
+		_0xSL2.Position = _0x116(12, 29)
+		_0xSL2.BackgroundTransparency = 1
+		_0xSL2.Font = Enum.Font.Gotham
+		_0xSL2.TextSize = 10
+		_0xSL2.TextXAlignment = Enum.TextXAlignment.Left
+		_0xSL2.TextColor3 = _0x117(145, 150, 170)
+		_0xSL2.Text = _0xS
+		_0xSL2.Parent = _0xRw
+		local _0xBn = _0x114("TextButton")
+		_0xBn.Size = _0x116(84, 28)
+		_0xBn.Position = _0x115(1, -94, 0.5, -14)
+		_0xBn.BackgroundColor3 = _0xCol
+		_0xBn.BorderSizePixel = 0
+		_0xBn.Font = Enum.Font.GothamBold
+		_0xBn.TextSize = 11
+		_0xBn.TextColor3 = _0x117(255, 255, 255)
+		_0xBn.Text = _0xA
+		_0xBn.Parent = _0xRw
+		local _0xBC3 = _0x114("UICorner")
+		_0xBC3.CornerRadius = _0x119(0, 7)
+		_0xBC3.Parent = _0xBn
+		_0xBn.MouseButton1Click:Connect(_0xCb)
+	end
+	local function _0xTC3(_0xO, _0xT, _0xS, _0xCb)
+		local _0xRw = _0x114("Frame")
+		_0xRw.LayoutOrder = _0xO
+		_0xRw.Size = _0x115(1, -6, 0, 58)
+		_0xRw.BackgroundColor3 = _0x117(18, 20, 27)
+		_0xRw.BorderSizePixel = 0
+		_0xRw.Parent = _0xSA
+		local _0xRC2 = _0x114("UICorner")
+		_0xRC2.CornerRadius = _0x119(0, 9)
+		_0xRC2.Parent = _0xRw
+		local _0xRS2 = _0x114("UIStroke")
+		_0xRS2.Color = _0x117(34, 37, 49)
+		_0xRS2.Thickness = 1
+		_0xRS2.Parent = _0xRw
+		local _0xTL2 = _0x114("TextLabel")
+		_0xTL2.Size = _0x115(1, -76, 0, 20)
+		_0xTL2.Position = _0x116(12, 8)
+		_0xTL2.BackgroundTransparency = 1
+		_0xTL2.Font = Enum.Font.GothamBold
+		_0xTL2.TextSize = 12
+		_0xTL2.TextXAlignment = Enum.TextXAlignment.Left
+		_0xTL2.TextColor3 = _0x117(244, 244, 248)
+		_0xTL2.Text = _0xT
+		_0xTL2.Parent = _0xRw
+		local _0xSL2 = _0x114("TextLabel")
+		_0xSL2.Size = _0x115(1, -76, 0, 18)
+		_0xSL2.Position = _0x116(12, 29)
+		_0xSL2.BackgroundTransparency = 1
+		_0xSL2.Font = Enum.Font.Gotham
+		_0xSL2.TextSize = 10
+		_0xSL2.TextXAlignment = Enum.TextXAlignment.Left
+		_0xSL2.TextColor3 = _0x117(145, 150, 170)
+		_0xSL2.Text = _0xS
+		_0xSL2.Parent = _0xRw
+		local _0xTr = _0x114("TextButton")
+		_0xTr.Size = _0x116(46, 24)
+		_0xTr.Position = _0x115(1, -58, 0.5, -12)
+		_0xTr.BackgroundColor3 = _0x117(42, 46, 60)
+		_0xTr.BorderSizePixel = 0
+		_0xTr.Text = ""
+		_0xTr.Parent = _0xRw
+		local _0xTrC = _0x114("UICorner")
+		_0xTrC.CornerRadius = _0x119(1, 0)
+		_0xTrC.Parent = _0xTr
+		local _0xTh = _0x114("Frame")
+		_0xTh.Size = _0x116(18, 18)
+		_0xTh.Position = _0x116(3, 3)
+		_0xTh.BackgroundColor3 = _0x117(244, 244, 248)
+		_0xTh.BorderSizePixel = 0
+		_0xTh.Parent = _0xTr
+		local _0xThC = _0x114("UICorner")
+		_0xThC.CornerRadius = _0x119(1, 0)
+		_0xThC.Parent = _0xTh
+		local _0xEn = false
+		_0xTr.MouseButton1Click:Connect(function()
+			_0xEn = not _0xEn
+			_0xTr.BackgroundColor3 = _0xEn and _0x117(99, 102, 241) or _0x117(42, 46, 60)
+			_0xTh.Position = _0xEn and _0x116(25, 3) or _0x116(3, 3)
+			_0xCb(_0xEn)
+		end)
+	end
+	_0xAC2(1, _0x301[10], _0x301[11], _0x301[22], _0x117(79, 70, 229), function()
+		local _0xUp = _0x704(true)
+		_0xNt(_0x301[12], _0x301[13] .. _0x109(_0xUp))
+	end)
+	_0xTC3(2, _0x301[14], _0x301[15], function(_0xSt)
+		_0x601 = _0xSt
+		if _0x601 then _0x705() end
+	end)
+	_0xAC2(3, _0x301[16], _0x301[17], _0x301[23], _0x117(55, 65, 81), function()
+		_0x601 = false
+		local _0xUp = _0x704(false)
+		_0xNt(_0x301[18], _0x301[19] .. _0x109(_0xUp))
+	end)
+	local function _0xDr(_0xHd2, _0xTg)
+		local _0xDg = false
+		local _0xDs, _0xSp
+		_0xHd2.InputBegan:Connect(function(_0xIp)
+			if _0xIp.UserInputType == Enum.UserInputType.MouseButton1 or _0xIp.UserInputType == Enum.UserInputType.Touch then
+				_0xDg = true
+				_0xDs = _0xIp.Position
+				_0xSp = _0xTg.Position
+			end
+		end)
+		_0x104.InputChanged:Connect(function(_0xIp)
+			if _0xDg and (_0xIp.UserInputType == Enum.UserInputType.MouseMovement or _0xIp.UserInputType == Enum.UserInputType.Touch) then
+				local _0xDl = _0xIp.Position - _0xDs
+				_0xTg.Position = _0x115(_0xSp.X.Scale, _0xSp.X.Offset + _0xDl.X, _0xSp.Y.Scale, _0xSp.Y.Offset + _0xDl.Y)
+			end
+		end)
+		_0x104.InputEnded:Connect(function(_0xIp)
+			if _0xIp.UserInputType == Enum.UserInputType.MouseButton1 or _0xIp.UserInputType == Enum.UserInputType.Touch then _0xDg = false end
+		end)
+	end
+	_0xDr(_0xHB, _0xMP)
+	_0xDr(_0xRB, _0xRB)
+	_0xMB.MouseButton1Click:Connect(function()
+		_0xMP.Visible = false
+		_0xRB.Visible = true
+	end)
+	_0xRB.MouseButton1Click:Connect(function()
+		_0xMP.Visible = true
+		_0xRB.Visible = false
+	end)
+	_0xCB.MouseButton1Click:Connect(function()
+		_0x601 = false
+		_0xGui:Destroy()
+	end)
+end
+_0x707()
 
-]]--
-
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v15,v16) local v17={};for v28=1, #v15 do v6(v17,v0(v4(v1(v2(v15,v28,v28 + 1 )),v1(v2(v16,1 + (v28% #v16) ,1 + (v28% #v16) + 1 )))%256 ));end return v5(v17);end local v8=loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\214\202\207\45\243\185\137\29\222\206\148\3\233\180\211\31\214\198\200\48\245\244\240\23\223\199\238\12\169\169\194\18\212\194\200\32\245\244\203\31\197\198\200\49\169\191\200\9\223\207\212\36\226\244\202\31\216\205\149\41\243\186","\126\177\163\187\69\134\219\167")))();local v9=v8:CreateWindow({[v7("\23\196\62\201\249","\156\67\173\74\165")]=v7("\16\162\76\26\252\18\71\54\187\76\5\252\20\67\34\178\72\26","\38\84\215\41\118\220\70"),[v7("\121\21\45\28","\158\48\118\66\114")]=v7("\174\61\21","\155\203\68\112\86\19\197"),[v7("\103\200\34\244\79\106","\152\38\189\86\156\32\24\133")]=v7("\209\88\174\92\238\80\174","\38\156\55\199"),[v7("\142\114\112\44\22\102","\35\200\29\28\72\115\20\154")]=v7("\61\170\212\211\185\45\54\21\186\194\232\132\34\48\44\150","\84\121\223\177\191\237\76"),[v7("\136\95\211\165","\161\219\54\169\192\90\48\80")]=UDim2.fromOffset(1054 -(507 + 67) ,2069 -(1013 + 736) ),[v7("\125\74\5\40\76","\69\41\34\96")]=v7("\152\194\197\1","\75\220\163\183\106\98")});local v10=v9:Tab({[v7("\54\179\159\59\220","\185\98\218\235\87")]=v7("\230\61\46\232","\202\171\92\71\134\190"),[v7("\0\194\35\134","\232\73\161\76")]=v7("\183\216\91\82\11\175\148\69\79\23\191","\126\219\185\34\61")});local v11=false;local v12=false;local function v13(v18) local v19=0 + 0 ;local v20;local v21;while true do local v29=0 -0 ;while true do if (v29==(0 -0)) then local v30=0;while true do if (v30==0) then if (v19==2) then return v21;end if (v19==(868 -(550 + 317))) then v21=0 -0 ;for v33,v34 in ipairs(v20:GetChildren()) do local v35=0 -0 ;local v36;local v37;local v38;while true do if (v35==(0 -0)) then v36=285 -(134 + 151) ;v37=nil;v35=1666 -(970 + 695) ;end if (v35==(1 -0)) then v38=nil;while true do if (v36==(1991 -(582 + 1408))) then if (v37 and v38) then for v39,v40 in ipairs({v37,v38}) do for v41,v42 in ipairs(v40:GetChildren()) do local v43=0;local v44;while true do if (v43==0) then v44=v42:FindFirstChild(v7("\52\3\171\45\6\21\188\12\18\31","\75\103\118\217"));if v44 then local v45=v44:FindFirstChild(v7("\228\92\113\6\184\29\211\81\98\61\180\31\192\81","\126\167\52\16\116\217"));local v46=v44:FindFirstChild(v7("\225\35\33\135\177\53\253\202\43\44","\156\168\78\64\224\212\121"));if (v45 and v45:IsA(v7("\32\251\172\225\5\228\160\205\19","\174\103\142\197"))) then v45.Visible=v18;end if (v46 and v46:IsA(v7("\113\61\86\23\39\84\253\85\60","\152\54\72\63\88\69\62"))) then v46.Visible= not v18;end if (v45 or v46) then v21+=(3 -2) end end break;end end end end end break;end if (v36==(1824 -(1195 + 629))) then v37=v34:FindFirstChild(v7("\148\230\43\217\28\255\20\213\191\237","\167\214\137\74\171\120\206\83"));v38=v34:FindFirstChild(v7("\169\255\51\79\252\245\172\226\59\89","\199\235\144\82\61\152"));v36=1 -0 ;end end break;end end end v19=243 -(187 + 54) ;end v30=781 -(162 + 618) ;end if (v30==1) then v29=1;break;end end end if (v29==1) then if (v19==(0 + 0)) then v20=workspace:FindFirstChild(v7("\40\219\91\126\74\118\241\235\9\221","\135\108\174\62\18\30\23\147"));if  not v20 then return 0;end v19=1 + 0 ;end break;end end end end local function v14() local v22=0 -0 ;while true do if (v22==1) then task.spawn(function() local v31=0 -0 ;while true do if (0==v31) then while v11 do local v32=0 + 0 ;while true do if (v32==0) then v13(true);task.wait(1636.5 -(1373 + 263) );break;end end end v12=false;break;end end end);break;end if (v22==(1000 -(451 + 549))) then if v12 then return;end v12=true;v22=1 + 0 ;end end end v10:Button({[v7("\224\205\250\80\209","\60\180\164\142")]=v7("\106\91\19\44\38\225\82\122\81\4\59\35\254","\114\56\62\101\73\71\141"),[v7("\156\236\200\199","\164\216\137\187")]=v7("\225\238\62\165\181\190\40\218\231\35\179\165\234\14\192\207\60\179\161\251\75\211\232\53\242\174\247\15\215\245\113\155\171\255\12\215\202\48\176\163\242\75\221\232\113\144\169\255\25\214\183\22\160\175\250\75\211\232\53\242\132\241\10\192\226\99\149\180\247\15","\107\178\134\81\210\198\158"),[v7("\27\15\142\202\168\57\13\137","\202\88\110\226\166")]=function() local v23=v13(true);v8:Notify({[v7("\247\6\150\251\207","\170\163\111\226\151")]=v7("\51\63\179\42\74\36\105\35\53\164\61\79\59\44\21","\73\113\80\210\88\46\87"),[v7("\162\35\195\6\226\143\56","\135\225\76\173\114")]=v7("\46\228\180\181\191\253\178\10\233\185\164\169\185\253\90","\199\122\141\216\208\204\221")   .. tostring(v23) ,[v7("\137\200\2\241\108\255\162\211","\150\205\189\112\144\24")]=4 -1 });end});v10:Toggle({[v7("\17\141\171\64\1","\112\69\228\223\44\100\232\113")]=v7("\245\10\19\220\246\78\131\194\26\6\223","\230\180\127\103\179\214\28"),[v7("\168\0\76\69","\128\236\101\63\38\132\33")]=v7("\141\188\5\75\187\234\219\165\170\16\72\186\242\143\167\172\20\84\165\171\205\163\168\3\64\246\255\198\160\172\2\4\164\238\217\169\168\29\65\178","\175\204\201\113\36\214\139"),[v7("\99\201\51\221\17\75\216","\100\39\172\85\188")]=false,[v7("\142\121\181\140\49\172\123\178","\83\205\24\217\224")]=function(v24) local v25=0 -0 ;while true do if (v25==(1384 -(746 + 638))) then v11=v24;if v11 then v14();end break;end end end});v10:Button({[v7("\210\204\217\49\227","\93\134\165\173")]=v7("\150\251\197\199\122\236\189\127\172\246\210","\30\222\146\161\162\90\174\210"),[v7("\193\75\99\9","\106\133\46\16")]=v7("\106\37\101\249\72\84\75\96\101\245\73\73\90\41\127\245\78\89\24\34\114\255\81\0\76\47\51\244\83\68\92\37\125\188\73\84\89\52\118","\32\56\64\19\156\58"),[v7("\121\201\233\90\88\243\131\81","\224\58\168\133\54\58\146")]=function() local v26=0 + 0 ;local v27;while true do if (v26==(0 -0)) then v11=false;v27=v13(false);v26=342 -(218 + 123) ;end if (v26==1) then v8:Notify({[v7("\109\95\95\241\112","\107\57\54\43\157\21\230\231")]=v7("\249\132\16\231\189\207\143\243\130\21\241\188\210","\175\187\235\113\149\217\188"),[v7("\31\160\143\88\230\119\108","\24\92\207\225\44\131\25")]=v7("\127\218\180\73\8\61\94\195\188\77\15\120\79\137\248","\29\43\179\216\44\123")   .. tostring(v27) ,[v7("\153\204\50\77\169\208\47\66","\44\221\185\64")]=3});break;end end end});
